@@ -1,0 +1,42 @@
+.abautus {
+
+    &__title {
+        @include margin (100px, 0, 25px, 0);
+        @include font(800, 32px, #000000);
+    }
+
+    &__descriptions {
+        @include font(500, 14px, rgba(0, 0, 0, 0.7));
+        max-width: 600px;
+        margin: 0 auto;
+        color: rgb(87, 87, 87);
+        text-align: center;
+        line-height: 136.19%;
+    }
+    &__whywe-title {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__pic{
+        max-width: 100%;
+    }
+
+    &__whywe {
+            display: flex;
+            flex-wrap: wrap;
+
+        h4 {
+            @include font (600, 17px, #000000);
+            margin-top: 30px;
+            display: flex;
+            align-items: flex-start;
+
+        }
+
+        p {
+            @include font (400, 12px, #000000);
+            max-width: 398px;
+        }
+    }
+
+}

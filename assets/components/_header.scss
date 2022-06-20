@@ -1,0 +1,25 @@
+.header {
+
+    &__content {
+        @include font(500, 14px, #000000);
+        @include margin (54px, 0, 133px, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1420px;
+        flex-wrap: wrap;
+    }
+
+    &__pshka {
+        @include font(400, 14px, #000000);
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin-left: 80px;
+    }
+}
